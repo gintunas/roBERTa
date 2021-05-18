@@ -4,7 +4,7 @@ app = Flask(__name__, template_folder="templates", static_folder='static')
 
 from transformers import AutoModelForQuestionAnswering, pipeline, AutoTokenizer
 
-model_checkpoint = "./models/roberta-squad-v2"
+model_checkpoint = "roberta-large"
 
 model = AutoModelForQuestionAnswering.from_pretrained(model_checkpoint)
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
