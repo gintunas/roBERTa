@@ -1,0 +1,25 @@
+.content {
+	max-width: 500px;
+	margin: auto;
+}
+
+#model-form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+#model-form>div {
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+	width: 300px;
+}
+
+#model-form>div.answer-div {
+	margin-top: 80px;
+}
+
+h1 {
+	text-align: center;
+}
