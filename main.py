@@ -33,8 +33,4 @@ def calculateGet():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
 	app.run()
-=======
-	app.run()
->>>>>>> linux
